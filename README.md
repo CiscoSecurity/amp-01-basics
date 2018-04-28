@@ -1,1 +1,1 @@
-AMP01Basics
+This collection of scripts cover the basics of interacting with the AMP for Endpoints API. Each script covers one use case. These are intented to show the bare minimum required to interact with the API for each use case.
