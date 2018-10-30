@@ -6,6 +6,6 @@ api_key = 'a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p6'
 
 url = 'https://api.amp.cisco.com/v1/computers'
 
-r = requests.get(url, auth=(client_id, api_key))
+response = requests.get(url, auth=(client_id, api_key))
 
-print r.json()
+print(response.json())
