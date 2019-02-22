@@ -11,7 +11,6 @@ Additional variables where present:
 - computer_guid
 - user
 - query
-- computer_guid
 - group_guid
 - parent_group_guid
 - policy_guid
