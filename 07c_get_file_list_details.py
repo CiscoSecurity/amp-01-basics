@@ -1,8 +1,8 @@
 import requests
 
-client_id = 'a1b2c3d4e5f6g7h8i9j0'
+amp_client_id = 'a1b2c3d4e5f6g7h8i9j0'
 
-api_key = 'a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p6'
+amp_api_key = 'a1b2c3d4-e5f6-g7h8-i9j0-k1l2m3n4o5p6'
 
 # EXAMPLE:
 # file_lists_guid = 'e773a9eb-296c-40df-98d8-bed46322589d'
@@ -10,6 +10,6 @@ file_lists_guid = '<FILE_LIST_GUID>'
 
 url = 'https://api.amp.cisco.com/v1/file_lists/{}'.format(file_lists_guid)
 
-response = requests.get(url, auth=(client_id, api_key))
+request = requests.get(url, auth=(amp_client_id, amp_api_key))
 
-print(response.json())
+print(request.json())

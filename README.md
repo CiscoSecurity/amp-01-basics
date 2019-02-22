@@ -4,8 +4,8 @@
 This collection of scripts cover the basics of interacting with the AMP for Endpoints API. Each script covers one API endpoint. These are intented to show the bare minimum required to interact with the API endpoint.
 
 ### Before using you must update the following:
-- client_id
-- api_key
+- amp_client_id
+- amp_api_key
 
 Additional variables where present:
 - computer_guid
